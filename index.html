@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="action_page.php" method="get"><br>
+        <label for="fname"><b>Position:</b></label>
+        <select name="position">
+            <option value="manager">Manager</option>
+            <option value="hr">HR</option>
+            <option value="assistant">Assistant</option>
+            <option value="directer">Directer</option>
+            </select>
+           <br><br>
+        <label for="iname"><b>Application Name:</b></label>
+        <input type="text" id="iname" name="iname"><br><br>
+        <label for="dname"><b>Address:</b></label>
+        <textarea name="comments" cols="20" rows="2"></textarea><br><br>
+        <label for="ename"><b>Email:</b></label>
+        <input type="text" id="ename" name="ename"><br><br>
+        <label for="cname"><b>Contact No.</b></label>
+        <input type="text" id="cname" name="cname"><br><br>
+        <label for="gname"><b>Gender</b></label>
+        <input id="female" type="radio" name="gender"
+value="f">
+<label for="female">Female</label>
+<input id="male" type="radio" name="gender"
+value="m">
+<label for="male">Male</label>
+ <br><br>
+        <label for="dname"><b>D.O.B:</b></label>
+        <input type="text" id="dname" name="dname"><br><br>
+        <label for="username"><b>Date:</b></label>
+<input type="date" name="depart" />
+
+
+        <p><h1>Educational Details</h1></p><hr>
+        <label for="qname"><b>Qualification:</b></label>
+        <input type="checkbox" name="qname"
+ value="Masters" checked="checked" /> Masters
+ <input type="checkbox" name="qname"
+ value="Graduation" /> Graduation
+ <input type="checkbox" name="service"
+ value="Intermediate" /> Intermediate<br><br>
+        <label for="rname"><b>Upload your Resume here:</b></label><br><br>
+        <input type="file" name="user-resume" /><br /><br>
+<input type="submit" value="Upload" /><br><br>
+        <label for="bname"><b>Experience:</b></label>
+        <input type="text" id="bname" name="bname"><br><br>
+        <label for="xname"><b>Remarks:</b></label>
+        <input type="text" id="xname" name="xname"><br><br>
+        <input type="submit" value="submit">
+      </form>
+</body>
+</html>
